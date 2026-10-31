@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+
+# env and secrets
+.env
+.env.*
+!.env.example
+
+# builds
+dist/
+build/
+.expo/
+web-build/
+
+# native
+ios/Pods/
+android/.gradle/
+android/app/build/
+*.keystore
+*.jks
+
+# logs and OS files
+*.log
+npm-debug.*
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# real SMS dumps must never be committed
+*.sms
+sms-dump*
+real-samples/
